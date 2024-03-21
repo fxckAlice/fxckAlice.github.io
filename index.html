@@ -9,33 +9,31 @@
 <body>
     <header class="header">
         <div class="header-container">
-            <div class="Logo">
-                <img class="logo-pic" src="images/logo 1.svg">
-                <h1 class="main-title">Vision Capital</h1>
+            <div class="header-logobox">
+                <img class="header-logobox__logo-pic" src="images/logo 1.svg">
+                <h1 class="header-logobox__title">Vision Capital</h1>
             </div>
-            <div class="col/right">
-                <ul class="menu">
+            <div class="header-navbox">
+                <ul class="header-navbox__menu">
                     <li class="menu-item">For Progect</li>
                     <li class="menu-item">For Inventors</li>
                 </ul>
-                <button class="primary-button">Join now</button>
+                <button class="header-button primary-button main-button">Join now</button>
             </div>
         </div>
     </header>
     <section class="start-menu">
         <div class="start-menu-container">
-            <div class="start-menu-frame">
                 <div class="start-menu-content">
-                    <div class="start-menu-content__labels">
-                        <h2 class="start-menu-content__labels-title">Vision Capital</h2>
-                        <p class="start-menu-content__lebels-par">The right way to fund and incubate your DeFi startup</p>
+                    <div class="start-menu__labels">
+                        <h2 class="start-menu__labels-title">Vision Capital</h2>
+                        <p class="start-menu__labels-par">The right way to fund and incubate your DeFi startup</p>
                     </div>
-                    <div class="start-menu-content__buttons">
-                        <button class="primary-button">I Need Funding</button>
-                        <button class="secondary-button">Become an Investor</button>
+                    <div class="start-menu__buttons">
+                        <button class="primary-button main-button">I Need Funding</button>
+                        <button class="secondary-button main-button">Become an Investor</button>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
     <section class="sponsors">
@@ -45,155 +43,180 @@
                 <h3 class="sponsors-title-label">In the pipeline</h3>
                 <span class="divider"></span>
             </div>
-            <div class="sponsors-images">
-                <div class="sponsors-images__logo">
-                    <img src="images/image 26.png" alt="">
-                </div>
-                <div class="sponsors-images__logo">
-                    <img src="images/image 28.png" alt="">
-                </div>
-                <div class="sponsors-images__logo">
-                    <img src="images/image 29.png" alt="">
-                </div>
-                <div class="sponsors-images__logo">
-                    <img src="images/image 27.png" alt="">
-                </div>
-                <div class="sponsors-images__logo">
-                    <img src="images/image 30.png" alt="">
-                </div>
-            </div>
+            <ul class="sponsors-images">
+                <li class="sponsors-images__logo">
+                    <img src="images/image 26.png" alt="sponsor`s logo">
+                </li>
+                <li class="sponsors-images__logo">
+                    <img src="images/image 28.png" alt="sponsor`s logo">
+                </li>
+                <li class="sponsors-images__logo">
+                    <img src="images/image 29.png" alt="sponsor`s logo">
+                </li>
+                <li class="sponsors-images__logo">
+                    <img src="images/image 27.png" alt="sponsor`s logo">
+                </li>
+                <li class="sponsors-images__logo">
+                    <img src="images/image 30.png" alt="sponsor`s logo">
+                </li>
+            </ul>
         </div>
     </section>
     <section class="motivation">
         <div class="motivation-container">
             <div class="motivation-title">
-                <h2 class="motivation-title-text">Traditional Fundraising <br>
+                <h2 class="motivation-title__text">Traditional Fundraising <br>
                     Doesn't Work <br>
                     in DeFi</h2>
                 </div>
-            <div class="motivation-list">
-                <ol>
-                    <li class="motivation-list__item">
+            <ol class="motivation-list">
+                <li class="list-item">
                         <h4>Without a big budget, it's hard to approach venture investors</h4>
-                    </li>
-                    <li class="motivation-list__item">
+                </li>
+                <li class="list__item">
                         <h4>VCs don't care about your DeFi idea – only their gains</h4>
-                    </li>
-                    <li class="motivation-list__item">
+                </li>
+                <li class="list__item">
                         <h4>They force you into selling your tokens at a huge discount…</h4>
-                    </li>
-                    <li class="motivation-list__item">
+                </li>
+                <li class="list__item">
                         <h4>...Then dump them at the first opportunity</h4>
-                    </li>
-                    <li class="motivation-list__item">
+                </li>
+                <li class="list__item">
                         <h4>Result: your token collapses. Everyone goes home.</h4>
-                    </li>
-                </ol>
-            </div>
+                </li>
+            </ol>
         </div>
     </section>
     <section class="forprojects">
-        <div class="forprojects-continer">
-            <div class="forprojects-title">
-                <div class="forprojects-title__main-label">
-                    <p class="forprojects-title__main-label__label">— For Projects</p>
-                    <h2 class="forprojects-title__main-label__title">
+        <div class="forprojects-container">
+            <div class="forprojects-titlebox">
+                <div class="forprojects-titlebox__main-label">
+                    <p class="forprojects-titlebox__main-label__label">— For Projects</p>
+                    <h2 class="forprojects-titlebox__main-label__title">
                         Vision is the
                         <span class="colored">answer</span>
                     </h2>
                 </div>
-                <p class="forproject-title__label">You have an idea, IncuPie has a plan. We offer everything you need<br> to go from an early-stage idea to a successful exchange listing.</p>
+                <p class="forproject-titlebox__label">You have an idea, IncuPie has a plan. We offer everything you need<br> to go from an early-stage idea to a successful exchange listing.</p>
             </div>
-            <div class="forprojects-list">
-                <table class="forprojects-list-content">
-                    <tr>
-                        <td class="motivation-list__item">
+            <div class="forprojects-listbox">
+                <ul class="forprojects-listbox__list">
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
                             <h4>Decentralized investments</h4>
                             <p>we'll distribute your tokens among our huge and active community</p>
-                        </td>
-                        <td class="motivation-list__item">
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
                             <h4>Access to professional investors</h4>
                             <p>we'll put you in touch with funds and business angels ready to invest larger sums</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="motivation-list__item">
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
                             <h4>Exchange relations</h4>
                             <p>get better terms when listing your token</p>
-                        </td>
-                        <td class="motivation-list__item">
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
                             <h4>Staking</h4>
                             <p>allow users to stake your tokens on DeFiPie and earn rewards</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="motivation-list__item">
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
                             <h4>Product-market fit analysis</h4>
-                        </td>
-                        <td class="motivation-list__item">
-                            <h4>Detailed tokenomics  </h4>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="motivation-list__item">
-                            <h4>Smart contract audit </h4>
-                        </td>
-                        <td class="motivation-list__item">
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
+                            <h4>Detailed tokenomics</h4>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
+                            <h4>Smart contract audit</h4>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
                             <h4>Community-building and social media marketing</h4>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="motivation-list__item">
-                            <h4> Paper, blog, and media content from the best authors</h4>
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="images/Tick.png" alt="list-image" class="list-image">
+                        <div class="item-content">
+                            <h4>White Paper, blog, and media content from the best authors</h4>
+                        </div>
+                    </li>
+                </ul>
                 <div class="forprojects-navbuttons">
-                    <button class="primary-button">I Need Funding</button>
-                    <button class="secondary-button">Learn More</button>
+                    <button class="primary-button main-button">I Need Funding</button>
+                    <button class="secondary-button main-button">Learn More</button>
                 </div>
             </div>
         </div>
     </section>
     <section class="forinventors">
         <div class="forinventors-container">
-            <div class="forinventors-titleblock">
+            <div class="forinventors-titlebox">
                 <p class="forprojects-title__main-label__label">— For Investors</p>
-                <h2 class="forinventors-titleblock__title">
+                <h2 class="forinventors-titlebox__title">
                     Access 
                     <span class="colored">high-potential</span>
                     DeFi startups before everyone else
                 </h2>
             </div>
-            <table class="forprojects-list-content">
-                <tr>
-                    <td class="motivation-list__item">
+            <ul class="forinventors-list">
+                <li class="list-item">
+                    <img src="images/Tick.png" alt="list-image" class="list-image">
+                    <div class="item-content">
                         <h4>Low entry prices on DeFi tokens</h4>
-                    </td>
-                    <td class="motivation-list__item">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <img src="images/Tick.png" alt="list-image" class="list-image">
+                    <div class="item-content">
                         <h4>Fully decentralized </h4>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="motivation-list__item">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <img src="images/Tick.png" alt="list-image" class="list-image">
+                    <div class="item-content">
                         <h4>Only vetted projects that passed our due diligence</h4>
-                    </td>
-                    <td class="motivation-list__item">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <img src="images/Tick.png" alt="list-image" class="list-image">
+                    <div class="item-content">
                         <h4>New projects every month</h4>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="motivation-list__item">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <img src="images/Tick.png" alt="list-image" class="list-image">
+                    <div class="item-content">
                         <h4>High chance of success thanks to our incubation program</h4>
-                    </td>
-                    <td class="motivation-list__item">
-                        <h4>Yield farming rewards in PIE (</h4>
-                        <h4 class="title-inerstyle">up to 100% a year</h4>
-                        <h4>)</h4>
-                    </td>
-                </tr>
-            </table>
-            <button class="primary-button"></button>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <img src="images/Tick.png" alt="list-image" class="list-image">
+                    <div class="item-content">
+                        <h4>Yield farming rewards in PIE (<span class="colored">up to 100% a year</span>)</h4>
+                    </div>
+                </li>
+            </ul>
+            <button class="primary-button main-button">Become an Investor</button>
         </div>
     </section>
     <section class="defipie">
@@ -219,13 +242,23 @@
                 <h3 class="partnership-titlebox__title">Brought to you by DeFiPie in partnership with</h3>
                 <span class="divider"></span>
             </div>
-            <div class="partnership-partners">
-                <img src="images/image 21.png" alt="company-logo" class="partner">
-                <img src="images/image 22.png" alt="company-logo" class="partner">
-                <img src="images/image 23.png" alt="company-logo" class="partner">
-                <img src="images/image 24.png" alt="company-logo" class="partner">
-                <img src="images/image 25.png" alt="company-logo" class="partner">
-            </div>
+            <ul class="sponsors-images">
+                <li class="sponsors-images__logo"> 
+                    <img src="images/image 21.png" alt="company-logo" class="partner">
+                </li>
+                <li class="sponsors-images__logo">   
+                    <img src="images/image 22.png" alt="company-logo" class="partner">
+                </li>
+                <li class="sponsors-images__logo">    
+                    <img src="images/image 23.png" alt="company-logo" class="partner">
+                </li>   
+                <li class="sponsors-images__logo">  
+                    <img src="images/image 24.png" alt="company-logo" class="partner">
+                </li> 
+                <li class="sponsors-images__logo">   
+                    <img src="images/image 25.png" alt="company-logo" class="partner">
+                </li>    
+            </ul>
         </div>
     </section>
     <footer class="joinus">
@@ -257,7 +290,7 @@
                                 <p class="joinus-formbox__form-list__label">Telegram name</p>
                                 <input class="joinus-formbox__form-list__input" type="text" name="tg-nick" id="tg-nick">
                             </div>
-                            <input type="submit" value="Send" class="primary-button">
+                            <input type="submit" value="Send" class="primary-button main-button">
                         </form>
                         
                     </div>
